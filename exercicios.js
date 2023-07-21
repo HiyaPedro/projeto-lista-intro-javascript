@@ -28,9 +28,12 @@ calculaAreaRetangulo()
 // EXERCÍCIO 02
 function imprimeIdade() {
   // implemente sua lógica aqui
-
+const anoAtual = prompt("escreva o ano atual")
+const suaIdade = prompt("escreva o ano do seu nascimento")
+const idade = anoAtual - suaIdade
+console.log(idade)
 }
-
+imprimeIdade()
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
