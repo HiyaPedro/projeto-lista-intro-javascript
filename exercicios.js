@@ -66,15 +66,15 @@ function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
   const stringUpper = string.toUpperCase()
   return stringUpper
-
 }
-
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
-
+const resultado = custo / valorIngresso
+return resultado
 }
-calculaIngressosEspetaculo()
+calculaIngressosEspetaculo(3000, 100)
+
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
