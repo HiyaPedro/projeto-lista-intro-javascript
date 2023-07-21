@@ -1,6 +1,6 @@
 // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
 
-// EXERCÍCIO 0A
+/* EXERCÍCIO 0A
 function soma(num1, num2) {
   // implemente sua lógica aqui
   return num1 + num2
@@ -60,19 +60,21 @@ const cor2 = prompt("Qual é a sua segunda cor favorita?")
 const cor3 = prompt("Qual é a sua terceira cor favorita?")
 console.log([cor1, cor2, cor3])
 }
-imprimeTresCoresFavoritas()
+imprimeTresCoresFavoritas()*/
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
-console.log(`${string.toUpperCase()}`)
+  const stringUpper = string.toUpperCase()
+  return stringUpper
+
 }
-retornaStringEmMaiuscula("Ola")
+
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
 
 }
-
+calculaIngressosEspetaculo()
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
