@@ -64,9 +64,9 @@ imprimeTresCoresFavoritas()
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
-
+console.log(`${string.toUpperCase()}`)
 }
-
+retornaStringEmMaiuscula("Ola")
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
