@@ -46,9 +46,12 @@ calculaIMC(85, 182)
 function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
-
+const nome1 = prompt("Qual é o seu nome?")
+const idade2 = Number(prompt("Qual é sua idade?"))
+const email3 = prompt("Escreva o email?")
+console.log(`Meu nome é ${nome1}, tenho ${idade2} anos, e o meu email é ${email3}.`)
 }
-
+imprimeInformacoesUsuario()
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
