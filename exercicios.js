@@ -55,9 +55,12 @@ imprimeInformacoesUsuario()
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
-
+const cor1 = prompt("Qual é a sua primeira cor favorita?")
+const cor2 = prompt("Qual é a sua segunda cor favorita?")
+const cor3 = prompt("Qual é a sua terceira cor favorita?")
+console.log([cor1, cor2, cor3])
 }
-
+imprimeTresCoresFavoritas()
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
