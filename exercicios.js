@@ -78,7 +78,9 @@ calculaIngressosEspetaculo(3000, 100)
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
-
+let tamanho = string1.length === string2.length
+return tamanho
+ 
 }
 
 // EXERCÍCIO 09
