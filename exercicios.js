@@ -35,11 +35,13 @@ console.log(idade)
 }
 imprimeIdade()
 // EXERCÍCIO 03
+
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
-
+const imc = (peso / (altura * altura))
+return imc
 }
-
+calculaIMC(85, 182)
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
