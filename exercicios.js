@@ -92,7 +92,8 @@ return primeiroE[0]
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
-
+const ultimoE = array
+return ultimoE.pop()
 }
 
 // EXERCÍCIO 11
