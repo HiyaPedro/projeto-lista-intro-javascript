@@ -80,13 +80,13 @@ function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
 let tamanho = string1.length === string2.length
 return tamanho
- 
 }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
-
+const primeiroE = array
+return primeiroE[0]
 }
 
 // EXERCÍCIO 10
