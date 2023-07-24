@@ -1,7 +1,7 @@
 // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
 
-/* EXERCÍCIO 0A
-function soma(num1, num2) {
+//EXERCÍCIO 0A
+/*function soma(num1, num2) {
   // implemente sua lógica aqui
   return num1 + num2
 }
@@ -34,6 +34,7 @@ const idade = anoAtual - suaIdade
 console.log(idade)
 }
 imprimeIdade()
+
 // EXERCÍCIO 03
 
 function calculaIMC(peso, altura) {
@@ -60,7 +61,7 @@ const cor2 = prompt("Qual é a sua segunda cor favorita?")
 const cor3 = prompt("Qual é a sua terceira cor favorita?")
 console.log([cor1, cor2, cor3])
 }
-imprimeTresCoresFavoritas()*/
+imprimeTresCoresFavoritas()
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
@@ -94,24 +95,34 @@ function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
 const ultimoE = array
 return ultimoE.pop()
-}
+}*/
 
-// EXERCÍCIO 11
+// EXERCÍCIO 11 
+//pop() removes last shift()removes first unshift() adds to end of array push() adds to front of array
 function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
+  let remove1 = array.shift()
+  let remove2 = array.pop()
+  let swap1 = array.unshift(remove2)
+  let swap2 = array.push(remove1)
+  console.log(array)
+  return array
+  }
+  const returnValueNew = trocaPrimeiroEUltimo(remove1, remove2)
 
-}
 
-// EXERCÍCIO 12
+// EXERCÍCIO 120
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
-
+const bool1 = string1
+const bool2 = string2
+const resultado = bool1 === bool2
+console.log(resultado)
 }
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
-
+ 
 }
 
 // EXERCÍCIO 14
@@ -123,5 +134,9 @@ function checaAnoBissexto(ano) {
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
-
+const idadeA = confirm("Você tem mais de 18 anos?")
+const ensinoMed = confirm("Você possui ensino médio completo?")
+const disponibilidadeE = confirm("Você possui disponibilidade exclusiva durante os horários do curso?")
+const resultado = idadeA === ensinoMed === disponibilidadeE
+console.log(resultado)
 }
