@@ -1,7 +1,7 @@
 // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
-
+/*
 //EXERCÍCIO 0A
-/*function soma(num1, num2) {
+function soma(num1, num2) {
   // implemente sua lógica aqui
   return num1 + num2
 }
@@ -25,6 +25,7 @@ function calculaAreaRetangulo() {
   console.log(area)
 }
 calculaAreaRetangulo()
+
 // EXERCÍCIO 02
 function imprimeIdade() {
   // implemente sua lógica aqui
@@ -36,13 +37,13 @@ console.log(idade)
 imprimeIdade()
 
 // EXERCÍCIO 03
-
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
 const imc = (peso / (altura * altura))
 return imc
 }
 calculaIMC(85, 182)
+
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
@@ -53,6 +54,7 @@ const email3 = prompt("Escreva o email?")
 console.log(`Meu nome é ${nome1}, tenho ${idade2} anos, e o meu email é ${email3}.`)
 }
 imprimeInformacoesUsuario()
+
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
@@ -62,12 +64,14 @@ const cor3 = prompt("Qual é a sua terceira cor favorita?")
 console.log([cor1, cor2, cor3])
 }
 imprimeTresCoresFavoritas()
+
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
   const stringUpper = string.toUpperCase()
   return stringUpper
 }
+
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
@@ -95,10 +99,9 @@ function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
 const ultimoE = array
 return ultimoE.pop()
-}*/
+}
 
 // EXERCÍCIO 11 
-//pop() removes last shift()removes first unshift() adds to end of array push() adds to front of array
 function trocaPrimeiroEUltimo(array) {
   let remove1 = array.shift()
   let remove2 = array.pop()
@@ -108,23 +111,31 @@ function trocaPrimeiroEUltimo(array) {
   return array
   }
   const returnValueNew = trocaPrimeiroEUltimo(remove1, remove2)
+*/ 
 
-
-// EXERCÍCIO 120
+// EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
-const bool1 = string1
-const bool2 = string2
-const resultado = bool1 === bool2
-console.log(resultado)
-}
+  let str1 = string1.toLowerCase()
+  let str2 = string2.toLowerCase()
+  const result = str1 === str2
+  return result
 
+}
+checaIgualdadeDesconsiderandoCase()
+/*
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
- 
-}
+ let askUser1 = prompt("Qual é o ano atual?")
+ let askUser2 = prompt("Qual é o seu ano de nascimento?")
+ let askUser3 = prompt("Em que ano a sua carteira de identidade foi emitido?")
+ let ageAtual = askUser1 - askUser2 // age of person
+ let expirationDate = askUser1 - askUser3 // expiration date
 
+}
+checaRenovacaoRG()
+*/
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
@@ -134,9 +145,5 @@ function checaAnoBissexto(ano) {
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
-const idadeA = confirm("Você tem mais de 18 anos?")
-const ensinoMed = confirm("Você possui ensino médio completo?")
-const disponibilidadeE = confirm("Você possui disponibilidade exclusiva durante os horários do curso?")
-const resultado = idadeA === ensinoMed === disponibilidadeE
-console.log(resultado)
+
 }
