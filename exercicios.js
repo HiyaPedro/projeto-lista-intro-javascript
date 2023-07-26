@@ -112,7 +112,7 @@ function trocaPrimeiroEUltimo(array) {
   }
   const returnValueNew = trocaPrimeiroEUltimo(remove1, remove2)
 */ 
-
+/*
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
@@ -123,27 +123,47 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 
 }
 checaIgualdadeDesconsiderandoCase()
+*/
 /*
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
- let askUser1 = prompt("Qual é o ano atual?")
- let askUser2 = prompt("Qual é o seu ano de nascimento?")
- let askUser3 = prompt("Em que ano a sua carteira de identidade foi emitido?")
- let ageAtual = askUser1 - askUser2 // age of person
- let expirationDate = askUser1 - askUser3 // expiration date
+ let askDataAtual = prompt("Qual é o ano atual?")
+ let askDataDeNascimento = prompt("Qual é o seu ano de nascimento?")
+ let askDataDeEmissão = prompt("Em que ano a sua carteira de identidade foi emitido?")
+ let ageAtual = askDataAtual - askDataDeNascimento // age of person
+ let vencimento = askDataAtual - askDataDeEmissão // expiration date
 
+ const condition1 = ageAtual <= 20 && vencimento <=5 
+ const condition2 = ageAtual > 20 && ageAtual <= 50 && vencimento <=10 
+ const condition3 = ageAtual > 50 && vencimento <=15 
+ const resultado = condition1 && condition2 && condition3
+ console.log(resultado)
 }
 checaRenovacaoRG()
 */
+
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
+const divisibleBy4 = ano % 4 == 0
+const divisibleBy100 = ano % 100 == 0
+const divisibleBy400 = ano % 400 == 0
 
+const resultado = 
+console.log(divisibleBy4)
 }
+checaAnoBissexto(1900)
 
+/*
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
-
+let idadeC = prompt("Você tem mais de 18 anos?")
+let ensinoMed = prompt("Você possui ensino médio completo")
+let disponibilidadeEx = prompt("Você possui disponibilidade exclusiva durance os horários do curso?")
+const 
+console.log(resultado)
 }
+checaValidadeInscricaoLabenu()
+*/
