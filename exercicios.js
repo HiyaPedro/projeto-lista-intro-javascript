@@ -146,14 +146,13 @@ checaRenovacaoRG()
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
-const divisibleBy4 = ano % 4 == 0
-const divisibleBy100 = ano % 100 == 0
-const divisibleBy400 = ano % 400 == 0
-
-const resultado = 
-console.log(divisibleBy4)
+const yr4 = ano % 4 === 0 
+const yr100 = ano % 100 !== 0 
+const yr400 = ano % 400 === 0 
+const resultado = (yr4 && yr100) || yr400
+return resultado
 }
-checaAnoBissexto(1900)
+checaAnoBissexto()
 
 /*
 // EXERCÍCIO 15
