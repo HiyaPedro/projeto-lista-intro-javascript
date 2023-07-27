@@ -13,9 +13,9 @@ function imprimeMensagem() {
 
   console.log(mensagem)
 }
-
+*/
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
-
+/*
 // EXERCÍCIO 01
 function calculaAreaRetangulo() {
   // implemente sua lógica aqui
@@ -25,7 +25,8 @@ function calculaAreaRetangulo() {
   console.log(area)
 }
 calculaAreaRetangulo()
-
+*/
+/*
 // EXERCÍCIO 02
 function imprimeIdade() {
   // implemente sua lógica aqui
@@ -35,7 +36,8 @@ const idade = anoAtual - suaIdade
 console.log(idade)
 }
 imprimeIdade()
-
+*/
+/*
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
@@ -43,7 +45,8 @@ const imc = (peso / (altura * altura))
 return imc
 }
 calculaIMC(85, 182)
-
+*/
+/*
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
@@ -54,7 +57,8 @@ const email3 = prompt("Escreva o email?")
 console.log(`Meu nome é ${nome1}, tenho ${idade2} anos, e o meu email é ${email3}.`)
 }
 imprimeInformacoesUsuario()
-
+*/
+/*
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
@@ -64,14 +68,16 @@ const cor3 = prompt("Qual é a sua terceira cor favorita?")
 console.log([cor1, cor2, cor3])
 }
 imprimeTresCoresFavoritas()
-
+*/
+/*
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
   const stringUpper = string.toUpperCase()
   return stringUpper
 }
-
+*/
+/*
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
@@ -79,20 +85,23 @@ const resultado = custo / valorIngresso
 return resultado
 }
 calculaIngressosEspetaculo(3000, 100)
-
+*/
+/*
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
 let tamanho = string1.length === string2.length
 return tamanho
 }
-
+*/
+/*
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
 const primeiroE = array
 return primeiroE[0]
 }
+*/
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
@@ -101,6 +110,7 @@ const ultimoE = array
 return ultimoE.pop()
 }
 
+/*
 // EXERCÍCIO 11 
 function trocaPrimeiroEUltimo(array) {
   let remove1 = array.shift()
@@ -111,8 +121,8 @@ function trocaPrimeiroEUltimo(array) {
   return array
   }
   const returnValueNew = trocaPrimeiroEUltimo(remove1, remove2)
-*/ 
-/*
+
+
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
@@ -123,8 +133,8 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 
 }
 checaIgualdadeDesconsiderandoCase()
-*/
-/*
+
+
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
@@ -141,7 +151,7 @@ function checaRenovacaoRG() {
  console.log(resultado)
 }
 checaRenovacaoRG()
-*/
+
 
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
@@ -153,16 +163,19 @@ const resultado = (yr4 && yr100) || yr400
 return resultado
 }
 checaAnoBissexto()
+*/
 
-/*
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
-let idadeC = prompt("Você tem mais de 18 anos?")
-let ensinoMed = prompt("Você possui ensino médio completo")
-let disponibilidadeEx = prompt("Você possui disponibilidade exclusiva durance os horários do curso?")
-const 
-console.log(resultado)
+let pergunta1 = prompt("Você tem mais de 18 anos?").toLowerCase()
+let pergunta2 = prompt("Você possui ensino médio completo").toLowerCase()
+let pergunta3 = prompt("Você possui disponibilidade exclusiva durance os horários do curso?").toLowerCase()
+const ans1 = pergunta1 === "sim"
+const ans2 = pergunta2 === "sim"
+const ans3 = pergunta3 === "sim"
+const result = ans1 && ans2 && ans3
+console.log(result)
+
 }
-checaValidadeInscricaoLabenu()
-*/
+checaValidadeInscricaoLabenu() 
